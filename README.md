@@ -1,6 +1,7 @@
 # OkMonitor
 Recycle e-ink screens as monitors
 Forked from https://github.com/bmsleight/OkMonitor.
+Submission for Hack Club Blueprint.
 
 # Preface
 E-ink monitors are very useful for eye strain, but they are expensive. (https://shop.dasung.com/products/dasung-paperlike-color-world-first-color-e-ink-monitor is 1800 USD$!)
