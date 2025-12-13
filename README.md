@@ -1,6 +1,8 @@
 # OkMonitor
-Recycle e-ink screens as monitors
+Recycle e-ink screens as monitors.
+
 Forked from https://github.com/bmsleight/OkMonitor.
+
 Submission for Hack Club Blueprint.
 
 # Preface
