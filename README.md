@@ -15,6 +15,7 @@ This project utilize a Raspberry Pi 4 and a Kindle Paperwhite to create a wirele
 * Feeding an HDMI stream to a Raspberry Pi 4's USB input
 * Encode it using ffmpeg
 * Broadcast it using OpenWRT to a jailbroken Kindle Paperwhite.
+Does not require CAD or PCBs or whatever else.
 
 # Originality
 I will attempt to implement the suggested security features outlined at https://github.com/bmsleight/OkMonitor/issues/1. Perhaps I will be able to submit a pull request.
