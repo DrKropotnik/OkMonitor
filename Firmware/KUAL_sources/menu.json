@@ -1,0 +1,75 @@
+{
+	"items": [
+	{
+		"name": "Ok Monitor",
+		"priority": -998,
+		"items": [
+		{
+			"name": "Restart OkMonitor Server",
+			"action": "./okmonitor-control.sh",
+			"params": "reset",
+			"internal": "set_monitor.sh 1"
+		},
+		{
+			"name": "Set as OK Monitor 1",
+			"action": "./okmonitor-control.sh",
+			"params": "monitor 1",
+			"internal": "set_monitor.sh 1"
+		},
+		{
+			"name": "Set as OK Monitor 2",
+			"action": "./okmonitor-control.sh",
+			"params": "monitor 2",
+			"internal": "Setting set_monitor.sh 2"
+		},
+		{
+			"name": "Set as OK Monitor 3",
+			"action": "./okmonitor-control.sh",
+			"params": "monitor 3",
+			"internal": "Setting set_monitor.sh 3"
+		},
+		{
+			"name": "Set as OK Monitor 4",
+			"action": "./okmonitor-control.sh",
+			"params": "monitor 4",
+			"internal": "Setting set_monitor.sh 4"
+		},
+		{
+			"name": "Set as OK Monitor - Four Screens",
+			"action": "./okmonitor-control.sh",
+			"params": "number 4",
+			"internal": "-"
+		},
+		{
+			"name": "Set as OK Monitor - Single Screen",
+			"action": "./okmonitor-control.sh",
+			"params": "number 1",
+			"internal": "-"
+		},
+		{
+			"name": "Set screensaver block off",
+			"action": "./okmonitor-control.sh",
+			"params": "screenoff",
+			"internal": "Not inplimented yet"
+		},
+		{
+			"name": "Set Up - OK Monitor ",
+			"items": [
+			{
+			"name": "Disable connectivity check",
+			"action": "./okmonitor-control.sh",
+			"params": "disable",
+			"internal": "Disable connectivity check"
+			},
+			{
+			"name": "Install OpenWRT ssh Key",
+			"action": "./okmonitor-control.sh",
+			"params": "sshid",
+			"internal": "Install OpenWRT ssh Key"
+			}
+			]
+		}
+		]
+	}
+	]
+}
